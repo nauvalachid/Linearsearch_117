@@ -35,3 +35,8 @@ void LinearSearch()
 {
 	char ch;
 	int ctr;
+
+	do
+	{
+
+		cout << "\nMasukkan elemen yang ingin Anda cari: "; //Langkah no 1 Algoritma
