@@ -40,3 +40,8 @@ void LinearSearch()
 	{
 
 		cout << "\nMasukkan elemen yang ingin Anda cari: "; //Langkah no 1 Algoritma
+		int item;
+		cin >> item;
+
+		ctr = 0;
+		for (i = 0; i < n; i++)								//Langkah no 2 & 3 & 4 Algoritma
