@@ -60,3 +60,5 @@ void LinearSearch()
 
 		cout << "\nLanjutkan pencarian (y/n): ";
 		cin >> ch;
+	} while ((ch == 'y') || (ch == 'Y'));
+}
