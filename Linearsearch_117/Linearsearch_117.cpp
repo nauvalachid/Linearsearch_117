@@ -48,3 +48,15 @@ void LinearSearch()
 		{
 			ctr++;
 			if (arr[i] == item)								//Langkah no 5 Algoritma
+			{
+				cout << "\n" << item << " Ditemukan di posisi " << (i + 1) << endl;
+				break;
+			}
+		}
+
+		if (i == n)
+			cout << "\n" << item << " tidak ditemukan dalam array\n";
+		cout << "\nJumlah perbandingan: " << ctr << endl;
+
+		cout << "\nLanjutkan pencarian (y/n): ";
+		cin >> ch;
